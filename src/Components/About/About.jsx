@@ -6,7 +6,7 @@ const About = () => {
   return (
     <motion.div
       initial={{ opacity: 0, x: 100 }}
-      transition={{ duration: 1}}
+      transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
@@ -52,10 +52,10 @@ const About = () => {
           </div>
 
           <p className="my-10 max-w-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            perferendis molestias, facere cumque explicabo natus numquam est
-            veniam error possimus, corporis reiciendis aliquid, quasi obcaecati
-            quia animi sequi esse quod?
+            At our core, we believe real estate is more than property, it’s
+            about people. We connect clients with carefully selected properties
+            while delivering a seamless, transparent, and stress-free experience
+            tailored to their goals.
           </p>
           <button className="bg-blue-600 text-white px-8 py-2 rounded">
             Learn More
