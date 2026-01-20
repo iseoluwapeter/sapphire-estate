@@ -24,26 +24,26 @@ const Navbar = () => {
         {/* nav links  */}
         <ul className="hidden md:flex gap-7 text-white ">
           <li>
-            <a href="#" className="cursor-pointer hover:text-gray-400">
+            <a href="#Header" className="cursor-pointer hover:text-gray-400">
               Home
             </a>
           </li>
 
           <li>
-            <a href="#" className="cursor-pointer hover:text-gray-400">
+            <a href="#About" className="cursor-pointer hover:text-gray-400">
               About
             </a>
           </li>
 
           <li>
-            <a href="#" className="cursor-pointer hover:text-gray-400">
+            <a href="#Projects" className="cursor-pointer hover:text-gray-400">
               Projects
             </a>
           </li>
 
           <li>
             <a
-              href="#"
+              href="#Testimonials"
               className="cursor-pointer hover:text-gray-400"
             >
               Testimonials
@@ -87,17 +87,17 @@ const Navbar = () => {
             Home
           </a>
 
-          {/* <a
+          <a
             onClick={() => setShowMobileMenu(false)}
             href="#"
             className="px-4 py-2 rounded-full inline-block"
           >
             About
-          </a> */}
+          </a>
 
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#"
+            href="#Projects"
             className="px-4 py-2 rounded-full inline-block"
           >
             Projects
@@ -105,7 +105,7 @@ const Navbar = () => {
 
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#"
+            href="#Testimonials"
             className="px-4 py-2 rounded-full inline-block"
           >
             Testimonials
