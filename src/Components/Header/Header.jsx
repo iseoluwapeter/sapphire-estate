@@ -23,7 +23,7 @@ const Header = () => {
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="container text-center mx-autp py-4 px-6 md:p-20 lg:px-32 text-white z-10"
+        className="container text-center mx-autp py-4 px-6 md:p-20 lg:px-32 text-white absolute"
       >
         <h2 className="text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20">
           Explore homes that fit your dreams

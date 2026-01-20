@@ -67,7 +67,7 @@ const Navbar = () => {
 
       <div
         className={`md:hidden ${
-          showMobileMenu ? "fixed w-full" : "h-0 w-0"
+          showMobileMenu ? "fixed w-full z-20" : "h-0 w-0"
         }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all `}
       >
         <div className="flex justify-end p-6 ">
@@ -79,20 +79,33 @@ const Navbar = () => {
           />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium ">
-          <a onClick={() => setShowMobileMenu(false)} href="#Header" className="px-4 py-2 rounded-full inline-block">
+          <a
+            onClick={() => setShowMobileMenu(false)}
+            href="#Header"
+            className="px-4 py-2 rounded-full inline-block"
+          >
             Home
           </a>
 
-          <a onClick={() => setShowMobileMenu(false)} href="#About" className="px-4 py-2 rounded-full inline-block">
+          <a
+            onClick={() => setShowMobileMenu(false)}
+            href="#"
+            className="px-4 py-2 rounded-full inline-block"
+          >
             About
           </a>
 
-          <a onClick={() => setShowMobileMenu(false)} href="#Projects" className="px-4 py-2 rounded-full inline-block">
+          <a
+            onClick={() => setShowMobileMenu(false)}
+            href="#"
+            className="px-4 py-2 rounded-full inline-block"
+          >
             Projects
           </a>
 
-          <a onClick={() => setShowMobileMenu(false)}
-            href="#Testimonials"
+          <a
+            onClick={() => setShowMobileMenu(false)}
+            href="#"
             className="px-4 py-2 rounded-full inline-block"
           >
             Testimonials
@@ -104,4 +117,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-  
