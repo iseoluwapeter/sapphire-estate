@@ -24,26 +24,26 @@ const Navbar = () => {
         {/* nav links  */}
         <ul className="hidden md:flex gap-7 text-white ">
           <li>
-            <a href="#Header" className="cursor-pointer hover:text-gray-400">
+            <a href="#" className="cursor-pointer hover:text-gray-400">
               Home
             </a>
           </li>
 
           <li>
-            <a href="#About" className="cursor-pointer hover:text-gray-400">
+            <a href="#" className="cursor-pointer hover:text-gray-400">
               About
             </a>
           </li>
 
           <li>
-            <a href="#Projects" className="cursor-pointer hover:text-gray-400">
+            <a href="#" className="cursor-pointer hover:text-gray-400">
               Projects
             </a>
           </li>
 
           <li>
             <a
-              href="#Testimonials"
+              href="#"
               className="cursor-pointer hover:text-gray-400"
             >
               Testimonials
