@@ -81,7 +81,7 @@ const Navbar = () => {
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium ">
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#"
             className="px-4 py-2 rounded-full inline-block"
           >
             Home
