@@ -87,13 +87,13 @@ const Navbar = () => {
             Home
           </a>
 
-          <a
+          {/* <a
             onClick={() => setShowMobileMenu(false)}
             href="#"
             className="px-4 py-2 rounded-full inline-block"
           >
             About
-          </a>
+          </a> */}
 
           <a
             onClick={() => setShowMobileMenu(false)}
